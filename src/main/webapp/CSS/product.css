@@ -1,0 +1,26 @@
+.product-page-body-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+.category-product-page {
+  line-height: 44px;
+  font-size: 21px;
+}
+
+.product-page-body-wrapper .clothe-product-page {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.clothe-product-page img {
+  width: 240px;
+}
+
+
+
+.clothe-product-page div {
+  font-size: 19px;
+}

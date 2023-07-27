@@ -1,0 +1,46 @@
+* {
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrapper-login {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .login {
+        width: 40%;
+      }
+      .login h1 {
+        text-align: center;
+      }
+
+      .Login_form form {
+        width: 40%;
+        border: 1px solid black;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 320px;
+        justify-content: space-around;
+      }
+
+      .Login_form input {
+        height: 25px;
+      }
+
+      .Login_form form .Loginbutton {
+        text-align: center;
+      }
+
+      .Loginbutton button {
+        width: 120px;
+        height: 35px;
+      }
+
+      .forgot {
+        text-align: center;
+      }

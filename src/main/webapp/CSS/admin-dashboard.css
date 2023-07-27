@@ -1,0 +1,77 @@
+.admin-dashboard-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.admin-dashboard-wrapper img {
+  width: 120px;
+  height: 120px;
+  background-color: orange;
+}
+
+.admin-dashboard-1 {
+  border: 1px solid;
+  padding: 20px;
+  height: 100%;
+}
+
+.admin-dashboard-wrapper .admin-links {
+  line-height: 33px;
+}
+
+.admin-dashboard-2 {
+  width: 80%;
+}
+
+.admin-dashboard-wrapper .views-followers-repost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-dashboard-wrapper .views-followers-repost div {
+  width: 210px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.admin-dashboard-wrapper .table-product {
+  width: 80%;
+  border: 1px solid;
+}
+
+/* order details page css */
+.order-details-admin div {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  line-height: 42px;
+}
+
+.order-details-admin table {
+  width: 70%;
+  margin-top: 30px;
+  line-height: 32px;
+}
+
+.order-details-admin table th {
+  text-align: left;
+}
+
+.cost-total {
+  width: 60%;
+}
+.cost-total p {
+  text-align: end;
+}
+
+/* admin add product css page */
+.add-products-admin-form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-products-admin-form input {
+}

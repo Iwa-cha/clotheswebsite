@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: #090909;
+}
+
+.header .logo-header h1 {
+  font-size: 40px;
+}
+
+.header .cart-account-search svg {
+  width: 35px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.header .links {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.header .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+/* footer section */
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #090909;
+  color: white;
+  margin-top: 10px;
+}
+
+.footer .logo-footer h1 {
+  font-size: 40px;
+}
+
+.footer-section .quick-links {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.footer .follow-us img {
+  width: 35px;
+}
+
+/* hover efffect of header and footer anchor tags */
+.header a:hover,
+.footer a:hover {
+  color: red;
+  transition: 0.6s ease;
+}
+
+#drop-down-user {
+  width: 17%;
+  border: 1px solid;
+  padding: 20px;
+  position: absolute;
+  left: 78%;
+  top: 110px;
+  display: none;
+}
+
+.prof-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#drop-down-user a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+#drop-down-user a:hover {
+  transition: 0.4s ease;
+}
+
+.prof-header img {
+  width: 70px;
+}
+
+.prof-contents {
+  display: flex;
+  flex-direction: column;
+}
